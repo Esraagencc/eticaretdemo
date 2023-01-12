@@ -163,4 +163,14 @@ class HomeController extends Controller
 
     }
 
+    public function whoIsMy()
+    {
+
+        echo json_encode([
+            "adım" => "Ömer",
+            "soyadım" => "Tunç"
+        ]);
+
+    }
+
 }

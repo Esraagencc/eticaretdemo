@@ -70,3 +70,5 @@ Route::post('/kasa/giris/kaydet',[HomeController::class,'kasagiriskaydet'])->nam
 
 
 
+
+Route::get('/whoismy',[HomeController::class,'whoIsMy'])->name('girismy');
